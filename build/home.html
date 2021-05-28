@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Time Range</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html">Time Range</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plot
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="visualizations/max_temp.html">pm1</a>
+              <a class="dropdown-item" href="visualizations/humidity.html">pm2.5</a>
+              <a class="dropdown-item" href="visualizations/cloudiness.html">pm10</a>
+              <a class="dropdown-item" href="visualizations/windspeed.html">Wind Speed</a>
+            </div>
+        <li class="nav-item">
+          <a class="nav-link" href="comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="row mb-2 mt-5">
+      <div class="col-2"></div>
+      <div class="col-md-5">
+        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h2 class="pb-3 pt-3 border-bottom">Summary: Weather Data Visualization Dashboard</h2>
+            <div class="row">
+              <div class="col mt-3">
+                <img src="assets/latitude_maxT.png" class="img-fluid" alt="Lat_Maxtemp" width="100%">
+              </div>
+              <div class="col mt-3">
+                <p>The purpose of this project was to analyze the weather trend at varying distances from the equator.
+                  To accomplish this, we created a sample of 10000+ datasets and pull the weather data from the OpenWeatherMap API to assemble a dataset.</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <p>Once the dataset has been created, we used Matplotlib to create various scatter plots to visualize the relationships between latitude and different parameters of the weater.
+                  Factors we explored are temperature, cloudiness, wind speed and humidity. Navigate to each tab to explore the source data, the visualizations, and the results of the analysis.</p>
+                <p>Note: The weather information was from 21/MAR/2019, which is the date the API request was made.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="pb-3 pt-3 border-bottom">Visualization</h3>
+
+            <div class="row mb-2 mt-3">
+              <div class="col-6">
+                <div class="text-center" id="imgbox">
+                <a href="visualizations/max_temp.html"><img src="assets/latitude_maxT.png" class="img-fluid" alt="Lat_Maxtemp" class="img-thumbnail"></a>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="text-center" id="imgbox">
+                <a href="visualizations/humidity.html"><img src="assets/latitude_humidity.png" class="img-fluid" alt="Lat_humidity" class="img-thumbnail"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-2 mt-3">
+              <div class="col-6">
+                <div class="text-center" id="imgbox">
+                <a href="visualizations/cloudiness.html"><img src="assets/latitude_cloudiness.png" class="img-fluid" alt="Lat_cloudiness" class="img-thumbnail"></a>
+                </div>
+              </div>
+
+            <div class="col-6">
+              <div class="text-center" id="imgbox">
+              <a href="visualizations/windspeed.html"><img src="assets/latitude_windspeed.png" class="img-fluid" alt="Lat_windspeed" class="img-thumbnail"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.miJujubes carrot cake chocolate cake cupcake toffee cupcake pudding fruitcake chupa chups. Toffee lollipop cupcake. Danish caramels macaroon lemon drops candy canes.n.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
